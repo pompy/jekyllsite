@@ -1,7 +1,6 @@
 title: My Jekyll Site Sample
 description: A brief description of my site.
-url: "https://pompy.github.io/"
-baseurl: "/jekyllsite" # If applicable
+baseurl: /
 permalink: /:title/
 collections:
   events:
