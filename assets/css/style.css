@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro {
+  padding: 20px;
+  text-align: center;
+}
+
+.latest-posts {
+  padding: 20px;
+}
+
+.latest-posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.latest-posts li {
+  margin-bottom: 10px;
+}
+
+.latest-posts a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.latest-posts a:hover {
+  color: #23527c;
+}
