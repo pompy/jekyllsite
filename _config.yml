@@ -1,0 +1,11 @@
+title: My Jekyll Site Sample
+description: A brief description of my site.
+baseurl: /
+permalink: /:title/
+collections:
+  events:
+    output: true
+    permalink: /events/:title/
+  blog:
+    output: true
+    permalink: /blog/:title/
